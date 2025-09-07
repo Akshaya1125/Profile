@@ -40,14 +40,28 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Akshaya. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="#" className="text-gray-400 hover:text-blue-500  ">
+            <a
+              href="https://facebook.com/yourprofile" // <-- Replace with your Facebook profile URL
+              className="text-gray-400 hover:text-blue-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaFacebook />
             </a>
-            
-            <a href="#" className="text-gray-400 hover:text-blue-500 ">
+            <a
+              href="https://www.linkedin.com/in/akshaya-k-3253bb246/" // <-- Replace with your LinkedIn profile URL
+              className="text-gray-400 hover:text-blue-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedin />
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-500 ">
+            <a
+              href="https://github.com/Akshaya1125" // <-- Replace with your GitHub profile URL
+              className="text-gray-400 hover:text-blue-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub />
             </a>
           </div>

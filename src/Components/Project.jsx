@@ -5,41 +5,31 @@ import ani from "../assets/pro.mp4";
 const projects = [
   {
     backgroundColor:"black",
-    title: "Project 1",
+    title: "EP Chatbot",
     desc: " Designed and deployed an FAQ chatbot using RAG with LLaMALLMtohandleECSsoftwarequeries, enhancing website user support and response accuracy.",
     link: "https://github.com/Akshaya1125/EP_Chatbot",
     color: "bg-indigo-600 hover:bg-indigo-700"
   },
   {
-    title: "Project 2",
-    desc: "Description of your second project goes here.",
-    link: "https://github.com/yourusername/project2",
+    title: "SAR Colorization",
+    desc: "Developed a SAR image colorization tool using deep learning techniques, improving the visual quality of synthetic aperture radar images.",
+    link: "https://github.com/Akshaya1125/SAR_img_Colorization",
     color: "bg-blue-600 hover:bg-blue-700"
   },
   {
-    title: "Project 3",
-    desc: "Description of your third project goes here.",
-    link: "https://github.com/yourusername/project3",
+    title: "Simple Landing page",
+    desc: "Developed a simple landing page using React and Tailwind CSS, showcasing my skills and projects.",
+    link: "https://github.com/Akshaya1125/myproject",
     color: "bg-indigo-600 hover:bg-indigo-700"
   },
   {
-    title: "Project 4",
-    desc: "Description of your fourth project goes here.",
-    link: "https://github.com/yourusername/project4",
-    color: "bg-indigo-600 hover:bg-indigo-700"
-  },
-  {
-    title: "Project 5",
-    desc: "Description of your fifth project goes here.",
-    link: "https://github.com/yourusername/project5",
-    color: "bg-indigo-600 hover:bg-indigo-700"
-  },
-  {
-    title: "Project 6",
-    desc: "Description of your sixth project goes here.",
-    link: "https://github.com/yourusername/project6",
+    title: "Intern-Portfolio",
+    desc: "Developed an intern portfolio website using HTML, CSS, JS, showcasing my projects and skills.",
+    link: "https://github.com/Akshaya1125/intern-portfolio",
     color: "bg-indigo-600 hover:bg-indigo-700"
   }
+  
+  
 ];
 
 function Project() {
