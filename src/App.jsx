@@ -8,7 +8,7 @@ import About from './Components/About.jsx'
 import Contact from './Components/Contact.jsx'
 import Footer from './Components/Footer.jsx'
 import Project from './Components/Project.jsx'
-import Hobby from './Components/hobby.jsx';
+import Hobby from './Components/Hobby.jsx';
 function App(){
   return (
     
